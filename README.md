@@ -1,5 +1,7 @@
 # Avigilon Control Center API for Python
 
+[![PyPI version](https://img.shields.io/pypi/v/accapi.svg)](https://pypi.org/project/accapi)
+
 ## About
 
 This package alows you to communicate with Avigilon Control Center (ACC) API. Before you can start using it, you need to send and email to integrations@avigilon.com and ask for your unique pair of user nonce and user key values. Only having those will you be able to communicate with ACC server instance.
