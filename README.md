@@ -1,2 +1,15 @@
-# acc-api-python
-Avigilon Control Center (ACC) API for Python
+# Avigilon Control Center API for Python
+
+## About
+
+This package alows you to communicate with Avigilon Control Center (ACC) API. Before you can start using it, you need to send and email to integrations@avigilon.com and ask for your unique pair of user nonce and user key values. Only having those will you be able to communicate with ACC server instance.
+
+## Usage
+
+```python
+from accapi.client import AccClientFactory
+
+factory = AccClientFactory("user_nonce", "user_key")
+client = factory.login("http://acc_address", "username", "password")
+cameras = client.get_cameras()
+```
