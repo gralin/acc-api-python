@@ -19,6 +19,6 @@ Currently limited functionality is available but it's easy to extend (contributi
 from accapi.client import AccClientFactory
 
 factory = AccClientFactory("user_nonce", "user_key")
-client = factory.login("http://acc_address", "username", "password")
+client = factory.create("http://acc_address", "username", "password")
 cameras = client.get_cameras()
 ```
