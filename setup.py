@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.2' 
+VERSION = '0.0.3' 
 DESCRIPTION = 'Avigilon Control Center API for Python'
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -11,7 +11,9 @@ setup(
         version=VERSION,
         author="Jakub Bartkowiak",
         author_email="gralinpl@gmail.com",
-        url="https://github.com/gralin/acc-api-python",
+        project_urls={
+            "Source": "https://github.com/gralin/acc-api-python",
+        },
         description=DESCRIPTION,
         long_description=LONG_DESCRIPTION,
         long_description_content_type="text/markdown",
