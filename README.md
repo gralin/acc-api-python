@@ -4,7 +4,7 @@
 
 ## About
 
-This package alows you to communicate with Avigilon Control Center (ACC) API. Please join [Avigilon Technology Partner Program](https://www.avigilon.com/partners/technology-partner-program#become-a-partner) prior to using it in your project. When you become Avigilon partner, in addition to support, you will be receive your unique set of `user_nonce` and `user_key` to be used by your integration. Only with this data will you be able to communicate with the ACC server instance.
+This package enables communication with the Avigilon Control Center (ACC) API. Please join [Avigilon Technology Partner Program](https://www.avigilon.com/partners/technology-partner-program#become-a-partner) prior to using it in your project. When you become Avigilon partner, in addition to support, you will be receive your unique set of `user_nonce` and `user_key` to be used by your integration. Only with this data will you be able to communicate with the ACC server instance.
 
 ## Features
 
